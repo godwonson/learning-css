@@ -1,0 +1,349 @@
+body {
+  height: 5000px;
+  background-color: #eee;
+  margin: 5px;
+  font-family: verdana, sans-serif;
+}
+
+/* My First C.S.S Course By lynda.com. */
+
+.underlined {
+  text-decoration: underline;
+}
+
+#content {
+  width: 75%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+}
+
+h1,
+h2,
+h3 {
+  color: #960;
+  margin: 0px;
+}
+
+p {
+  margin: 0 0 0.75em 0;
+  line-height: 1.5em;
+}
+
+p.first:first-line {
+  font-variant: small-caps;
+}
+
+a {
+  text-decoration: none; /*
+}
+
+a:link {
+  color: red; 
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;*/
+}
+
+/* sidebar selector*/
+
+div.sidebar {
+  width: 235px;
+  float: right;
+  background-color: #ffc;
+  border: 1px solid #c99;
+  padding: 10px;
+}
+
+div.sidebar p {
+  color: #006;
+}
+
+/* this is an atribute selector */
+input[type="text"] {
+  width: 1 75px;
+}
+
+/* box model */
+
+.center {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+div#contents {
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #cc2b2b;
+  background-color: rgba(250, 250, 250, 250.65);
+  border: 1px solid #ccc;
+}
+
+/* == utility styles == */
+
+p.clear {
+  clear: both;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 150px;
+}
+
+/* == box model demonstration */
+.underline {
+  text-decoration: underline;
+  padding-bottom: 30px;
+}
+
+div#contents {
+  width: 800px;
+  margin: auto;
+  padding: 10px;
+  background-color: 8f8f8f;
+  border: 1px solid;
+}
+div#leftSpace,
+div#rightSpace {
+  float: left;
+  background-color: #69c;
+  width: 200px;
+  height: 200px;
+}
+
+div#leftSpace p,
+div#rightSpace p {
+  text-align: center;
+  margin-top: 85px;
+  color: #ccf;
+}
+
+div#boxImage {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+div#boxText {
+  float: left;
+  background-color: #9cf;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+div#boxText p {
+  font-size: 10px;
+  color: #633;
+}
+
+/* common web fonts */
+
+dd {
+  margin-bottom: 12p;
+}
+
+dt {
+  font-size: 125%;
+}
+
+.times {
+  font-family: Times, Times New Roman, serif;
+}
+.helvetica {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.courier {
+  font-family: Courier, Courier New, monospace;
+}
+.georgia {
+  font-family: Georgia, serif;
+}
+.verdana {
+  font-family: Verdana, sans-serif;
+}
+.trebuchet {
+  font-family: Trebuchet MS, sans-serif;
+}
+.impact {
+  font-family: Impact, sans-serif;
+}
+.lucidaSans {
+  font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+}
+.lucidaConsole {
+  font-family: Lucida Console, monospace;
+}
+.serif {
+  font-family: serif;
+}
+.sansSerif {
+  font-family: sans-serif;
+}
+.monospace {
+  font-family: monospace;
+}
+.cursive {
+  font-family: cursive;
+}
+/* border test */
+.underline {
+  padding-top: 60px;
+}
+
+.bodertest {
+  width: 1000px;
+  border-style: solid;
+  border-width: 2px 4px 7px 9px;
+  border-color: black red blue green;
+  padding: 5px;
+}
+
+#borders p {
+  padding-left: 5px;
+  width: 1000px;
+  margin: 40px;
+}
+
+/* border style */
+
+.hidden {
+  border: 10px hidden;
+}
+
+.solid {
+  border: 5px solid black;
+}
+.dotted {
+  border: 7px dotted goldenrod;
+}
+.dashed {
+  border: 5px dashed yellow;
+}
+.double {
+  border: 10px double blue;
+}
+.groove {
+  border: 10px groove greenyellow;
+}
+.ridge {
+  border: 10px ridge gray;
+}
+.insert {
+  border: 10px inset green;
+}
+.outset {
+  border: 10px outset green;
+}
+
+.bodertest {
+  border: 3px solid #999;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 12px 15px 10px #996;
+  transform: rotate(-6deg);
+  margin-bottom: 120px;
+}
+
+/* Pseudo Selector */
+
+#pseudo {
+  padding: 1px;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:active {
+  color: red;
+}
+
+/* Absolute positioning */
+.absolute {
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 30px;
+}
+
+div#outer {
+  position: relative;
+  width: 750px;
+  height: 500px;
+  margin: 15px auto;
+  background-color: #369;
+  border: solid 1px black;
+}
+
+div#first {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: #ccf;
+  float: left;
+  width: 220px;
+  padding: 15px;
+}
+
+div#second {
+  position: absolute;
+  top: 0%;
+  left: 250px;
+  background-color: #fcc;
+  width: 220px;
+  padding: 15px;
+}
+
+div#third {
+  position: absolute;
+  top: 0%;
+  left: 500px;
+  background-color: #cff;
+  width: 220px;
+  padding: 15px;
+}
+
+.images-fix {
+  color: #33b42f;
+  padding-top: 150px;
+}
+
+.padin {
+  text-decoration: underline;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+img#fixedImage {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+}
+
+div#iner {
+  background-color: #cff;
+  width: 600px;
+  margin: 15px auto;
+  padding: 15px;
+  border: solid 1px black;
+}
